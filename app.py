@@ -16,7 +16,7 @@ st.set_page_config(
      initial_sidebar_state="expanded",
 )
 
-max_width_str = f"max-width: 1200px;"
+max_width_str = f"max-width: 1600px;"
 st.markdown(
 	f"""
 		<style>
