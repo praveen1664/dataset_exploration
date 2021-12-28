@@ -6,7 +6,7 @@ import matplotlib
 matplotlib.use('Agg')
 import seaborn as sns
 import klib
-import pyautogui
+#import pyautogui
 import time
 
 st.set_page_config(
@@ -49,10 +49,10 @@ def main():
         filename=file_selector(FOLDER_PATH)
         st.success(f"you have selected {filename} Dataset")
         explore_data(FOLDER_PATH,filename)
-        if st.button("Reset"):
-            st.success("We are ressting the application")
-            time.sleep(1)
-            pyautogui.hotkey("ctrl","F5")  
+#        if st.button("Reset"):
+#            st.success("We are ressting the application")
+#            time.sleep(1)
+#            pyautogui.hotkey("ctrl","F5")  
             
     #if clean_your_dataset.button("Clean your Dataset"): 
     #    st.info("We are working on this feature")
@@ -80,28 +80,28 @@ def main():
                     time.sleep(0.1)
                     progress.progress(i+1)
                 #time.sleep(1)
-                pyautogui.hotkey("ctrl","F5")
+#                pyautogui.hotkey("ctrl","F5")
                 #FLAG=0
-        if st.button("Reset the App"):
-            if fname=="":
-                st.success("There is no dataset to delete")
-                st.success("We are ressting the application")
-                progress=st.progress(0)
-                for i in range(1,100):
-                    time.sleep(0.1)
-                    progress.progress(i+1)
+#        if st.button("Reset the App"):
+#            if fname=="":
+#                st.success("There is no dataset to delete")
+#                st.success("We are ressting the application")
+#                progress=st.progress(0)
+#                for i in range(1,100):
+#                    time.sleep(0.1)
+#                    progress.progress(i+1)
                # time.sleep(1)
-                pyautogui.hotkey("ctrl","F5")    
-            else:
-                os.remove(file_path)
-                st.success(f"We have Deleted your dataset {fname}")
-                st.success("We are ressting the application")
-                progress=st.progress(0)
-                for i in range(1,100):
-                    time.sleep(0.1)
-                    progress.progress(i+1)
+#                pyautogui.hotkey("ctrl","F5")    
+#            else:
+#                os.remove(file_path)
+#                st.success(f"We have Deleted your dataset {fname}")
+#                st.success("We are ressting the application")
+#                progress=st.progress(0)
+#                for i in range(1,100):
+#                    time.sleep(0.1)
+#                    progress.progress(i+1)
                 #time.sleep(1)
-                pyautogui.hotkey("ctrl","F5")    
+#                pyautogui.hotkey("ctrl","F5")    
     #if user_dataset.checkbox("Clean Your Dataset"):
     #    new_df=k
           
