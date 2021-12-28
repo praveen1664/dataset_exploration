@@ -4,12 +4,12 @@ echo "\
 email = \"productspraveen@gmail.com\"\n\
 " > ~/.streamlit/credentials.toml
 echo "\
-[theme]
-primaryColor="#d33682"
-backgroundColor="#002b36"
-secondaryBackgroundColor="#586e75"
-textColor="#fafafa"
-font="sans serif"
+[theme]\n\
+primaryColor="#d33682"\n\
+backgroundColor="#002b36"\n\
+secondaryBackgroundColor="#586e75"\n\
+textColor="#fafafa"\n\
+font="sans serif"\n\
 [server]\n\
 headless = true\n\
 enableCORS=false\n\
