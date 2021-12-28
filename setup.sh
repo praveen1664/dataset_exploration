@@ -10,7 +10,7 @@ primaryColor="#d33682"\n\
 backgroundColor="#002b36"\n\
 secondaryBackgroundColor="#586e75"\n\
 textColor="#fafafa"\n\
-font="sans serif"\n\
+font="sans serif"\
 [server]\n\
 headless = true\n\
 enableCORS=false\n\
