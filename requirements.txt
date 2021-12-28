@@ -57,7 +57,7 @@ prometheus-client==0.12.0
 prompt-toolkit==3.0.24
 protobuf==3.19.1
 pyarrow==6.0.1
-PyAutoGUI==0.9.53
+#PyAutoGUI==0.9.53
 pycparser==2.21
 pydeck==0.7.1
 PyGetWindow==0.0.9
